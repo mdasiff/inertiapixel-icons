@@ -1,0 +1,47 @@
+{
+  "name": "inertiapixel-icons",
+  "version": "1.0.0",
+  "private": false,
+  "description": "InertiaPixel React Icon Set",
+  "authors": [
+    "Muhammad Asif <mdasiff007@gmail.com>",
+    "InertiaPixel.com"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inertiapixel",
+    "icons",
+    "react-icons",
+    "nextjs-icons",
+    "svg-icons",
+    "inertiapixel-icons"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdasiff/inertiapixel-icons/issues.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdasiff/inertiapixel-icons/issues"
+  },
+  "homepage": "https://inertiapixel.com/icons",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.34.0"
+  }
+}

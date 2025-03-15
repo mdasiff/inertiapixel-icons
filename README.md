@@ -42,4 +42,4 @@ You can style the icons using props like `width`, `height`, and `fill`:
 This icon set is free and open-source under the MIT License.
 
 ### Visit our official website for live previews:
-!(🔗 https://www.inertiapixel.com)
+🔗 www.inertiapixel.com/icons
